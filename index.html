@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tarea HTML_Formularios de Leodan Condori</title>
+	</head>
+	<body>
+		<form action="" method="post">
+			<div>
+				<input type="radio" name="idioma" value="idiomaingles" checked /> Inglés
+				<input type="radio" name="idioma" value="idiomaaleman" /> Alemán
+				<input type="radio" name="idioma" value="idiomafrances" /> Francés
+			</div>
+			<select name="conector">
+				<!-- Opciones de la lista -->
+				<option value="usb">USB</option>
+				<option value="paralelo">Paralelo</option>
+				<!-- Opción por defecto -->
+				<option value="ps2" selected>PS2</option>
+			</select>
+
+			<div>
+				<input type="text" name="nombre" /> Nombre
+				<input type="text" name="apellidos" /> apellidos
+			</div>
+
+			<select name="sexo">
+				<!-- Opciones de la lista -->
+				<option value="hombre">Hombre</option>
+				<!-- Opción por defecto -->
+				<option value="mujer" selected>Mujer</option>
+			</select>
+
+			<div>
+				<input type="checkbox" name="sexo" value="sexomujer" checked /> Mujer
+				<input type="checkbox" name="sexo" value="sexohombre" /> Hombre
+			</div>
+
+			<div>
+				<input
+					type="date"
+					name="fecha"
+					min="2010-03-25"
+					max="2018-05-25"
+					step="1"
+				/>
+			</div>
+		</form>
+	</body>
+</html>

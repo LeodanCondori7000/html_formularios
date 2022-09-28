@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tarea HTML_Formularios de Leodan Condori</title>
+	</head>
+	<body>
+		<form action="" method="">
+			<div>
+				<input
+					type="date"
+					name="fecha"
+					min="2010-03-25"
+					max="2018-05-25"
+					step="1"
+				/>
+			</div>
+			<div>
+				<input type="file" name="adjunto" accept=".pdf,.jpg,.png" multiple />
+			</div>
+			<div>
+				<input type="radio" name="procesador" value="procesadoramd" checked />
+				AMD
+				<input type="radio" name="procesador" value="procesadorintel_i5" />
+				Intel i5
+				<input type="radio" name="procesador" value="procesadorintel_i7" />
+				Intel i7
+			</div>
+
+			<div>
+				<input type="text" name="nombre" /> Nombre
+				<input type="text" name="apellidos" /> apellidos
+				<input type="text" name="direccion" /> Dirección
+			</div>
+
+			<div>
+				<input type="color" />
+			</div>
+			<div>
+				<textarea
+					name=""
+					id=""
+					cols="59"
+					rows="6"
+					placeholder="Utilice este cuadro para escribir"
+				></textarea>
+			</div>
+			<div>
+				<input
+					type="date"
+					name="fecha"
+					min="2010-03-25"
+					max="2018-05-25"
+					step="1"
+				/>
+			</div>
+			<select name="idioma">
+				<!-- Opciones de la lista -->
+				<option value="ingles">Inglés</option>
+				<option value="aleman">Alemán</option>
+				<option value="frances">Francés</option>
+				<!-- Opción por defecto -->
+			</select>
+			<div>
+				<input type="time" name="hora" min="18:00" max="21:00" step="3600" />
+			</div>
+			<div>
+				<input type="file" name="adjunto" accept=".pdf,.jpg,.png" multiple />
+			</div>
+
+			<div>
+				<input type="checkbox" name="sexo" value="sexomujer" checked /> Mujer
+				<input type="checkbox" name="sexo" value="sexohombre" /> Hombre
+			</div>
+		</form>
+	</body>
+</html>
